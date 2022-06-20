@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner">
+        <header class="header">
+            <nav class="logo">
+                <a href="/"><i class="fa fa-globe fa-2x"></i></a>
+                <h1>Acadmy</h1>
+                <i class="fa fa-bars fa-2x" id="icon2" onclick="showmenu()"></i>
+            </nav>
+            <div class="list" id="listmenu">
+                <i class="fa fa-times fa-2x" id="icon1" onclick="hidemenu()"></i>
+                <ul class="nav-links">
+                    <li class="li-items">Home</li>
+                    <li class="li-items">About</li>
+                    <li class="li-items">Contact</li>
+                    <li class="li-items">Course</li>
+                    <li class="li-items1" id="butn"><a href="./login.html"
+                            style="text-decoration: none; color: white;">Login</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="text" style="top: 30%;">
+        </div>
+        <div class="login" style="height: 450px;">
+            <div style='text-align: -webkit-center;'>
+                <h3
+                    style="padding-bottom: 5px; font-weight: bold; color: white; border-bottom: 2px solid rgb(228, 66, 66); width: 105px;">
+                    Sign up</h3>
+            </div>
+            <div style="margin: 27px 15px">
+                <label for="name">Enter your name</label>
+                <input class="email" name="name" type="text" required>
+                <label for="email">Enter your email Address</label>
+                <input class="email" name="email" type="email" required>
+                <label for="password"> Enter your Password</label>
+                <input class="password" type="password" name="password" required>
+                <button><a href="./thanks.html"
+                    style="color: white; text-decoration: none; margin-bottom: 10px;">register</a></button>
+                <button><a href="./login.html"
+                    style="color: white; text-decoration: none; margin-bottom: 10px;">login</a></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
